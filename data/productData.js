@@ -1,0 +1,22 @@
+const aa =[
+    {
+        pro1: {
+            feature:'This is Product 1 Feature',
+            concept:"This is Product 1 Concept"
+            }
+    },
+    {
+        pro2: {
+            feature:"This is Product 2 Feature",
+            concept:"This is Product 2 Concept"
+            }
+    },
+    {
+        pro3: {
+            feature:"This is Product 3 Feature",
+            concept:"This is Product 3 Concept"
+            }
+    }
+];
+
+export default aa
