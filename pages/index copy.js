@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -54,10 +53,6 @@ export default function Home() {
           </a>
         </div>
       </main>
-      
-      <div>
-        <Link href={'/users'}>Go to users</Link>
-      </div>
 
       <footer className={styles.footer}>
         <a
@@ -74,5 +69,3 @@ export default function Home() {
     </div>
   )
 }
- 
-export default Home;
